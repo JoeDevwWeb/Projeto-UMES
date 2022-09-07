@@ -1,0 +1,136 @@
+/* importação de fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* --------------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+    user-select: none;
+}
+body{
+    background: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* fonts */
+h1,li{
+    font-family: 'Fredoka One';
+    text-transform: uppercase;
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+/* Cabeçalho */
+
+    /* corpo do cabeçalho */
+header{
+    width: 100vw;
+    height: 7rem;
+    margin-bottom: 4rem;
+    background: #B41717;
+    display: flex;
+    gap: 40%;
+}
+
+    /* logo do cabeçalho */
+header .logo img{
+    padding: 3.5%;
+    width: 35%;
+    border-radius: 50%;
+}
+
+    /* Atalhos do cabeçalho */
+.atalhos{
+    padding: 1%;
+}
+header .atalhos ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    top: 40px;
+}
+.atalhos ul li{
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 32px;
+    font-size: 12.5px;
+    cursor: pointer;
+}
+.atalhos ul li a{
+    color: black;
+    text-decoration: none;
+}
+.atalhos ul li:hover{
+    background: rgba(255, 255, 255, 0.856);
+}
+
+/* Corpo do site */
+
+
+
+
+.Introdução{
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    /* introdução texto*/
+.texto-Introdução{
+    width: 600px;
+}
+.texto-Introdução p{
+    text-align: justify;
+    margin: 10px;
+    font-size: 17px;
+}
+    /* introdução imagens*/
+.img-Intodução{
+    display: flex;
+}
+.img-Intodução img{
+    width: 15rem;
+}
+.img-Intodução #img-1-Intodução{
+    position: relative;
+    top: -35px;
+    left: 50px;
+}
+
+
+/* Objetivos do Movimento */
+.Objetivos{
+    margin-top: 4%;
+    width: 100vw;
+    height: 100%;
+    background: #5C6C94;
+}
+.Objetivos ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.Objetivos ul li div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    gap: 10px;
+    color: white;
+}
+.Objetivos img{
+    width: 150px;
+    border-radius: 50%;
+}
